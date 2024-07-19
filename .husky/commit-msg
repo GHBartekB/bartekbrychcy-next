@@ -1,0 +1,23 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# get commit message
+commit_msg_file="$1"
+commit_msg=$(cat "$commit_msg_file")
+
+# commit validator
+pattern="^[A-Z]"
+
+if ! echo "$commit_msg" | grep -qE "$pattern"; then
+  echo ""
+  printf "\033[31mWiadomość commita nie zaczyna się wielką literą\033[0m\n"
+  echo ""
+  exit 1
+fi
+
+echo ""
+printf "\033[1;32m✅ 🚀 Brawo, piękny i czytelny kod. Będzie z tego kiedyś dziedzictwo narodowe. Chyba...\033[0m\n"
+echo ""
+
+
+exit 0

@@ -1,0 +1,17 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+err() {
+    text="⛔ 🖕 Coś nie pykło. \"Hello, IT. Have you tried turning it off and on again?\" - Roy, The IT Crowd"
+    echo ""
+    printf "\033[1;31m%s\033[0m\n" "$text"
+    echo ""
+    exit 1
+}
+
+run_checks() {
+    npm run lint || err
+    npm run prettier:check || err
+}
+
+run_checks

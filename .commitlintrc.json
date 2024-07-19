@@ -1,0 +1,9 @@
+{
+  "extends": ["@commitlint/config-conventional"],
+  "rules": {
+    "subject-empty": [2, "never"],
+    "subject-case": [2, "always", "sentence-case"],
+    "type-empty": [0],
+    "scope-empty": [0]
+  }
+}
