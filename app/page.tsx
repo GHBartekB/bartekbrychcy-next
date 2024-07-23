@@ -1,14 +1,5 @@
-import Container from '@/components/ui/Container';
+import { redirect } from 'next/navigation';
 
-function Home() {
-  return (
-    <>
-      <header>
-        <Container>Header</Container>
-      </header>
-      <main className="container mx-auto">Content</main>
-    </>
-  );
+export default function RootPage() {
+  redirect('/pl');
 }
-
-export default Home;

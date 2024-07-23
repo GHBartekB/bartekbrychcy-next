@@ -1,0 +1,19 @@
+{
+  "LocaleLayout": {
+    "title": "Bartłomiej Brychcy Software Developer",
+    "desc": "Programista z kilkuletnim doświadczeniem. Tworzę aplikacje webowe i serwisy internetowe. Skontaktuj się ze mną i sprawdź, co możemy razem stworzyć."
+  },
+  "Common": {
+    "english": "🇬🇧 Angielski",
+    "polish": "🇵🇱 Polski",
+    "change_lang": "zmień język",
+    "home": "Strona Główna",
+    "about": "O mnie",
+    "projects": "Projekty",
+    "contact": "Kontakt",
+    "privacy_policy": "Polityka Prywatności",
+    "cookies_policy": "Polityka Cookies",
+    "contact_me": "Napisz do mnie:",
+    "theme_text": "zmiana motywu strony"
+  }
+}

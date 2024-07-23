@@ -1,0 +1,19 @@
+{
+  "LocaleLayout": {
+    "title": "Bartłomiej Brychcy Software Developer",
+    "desc": "I'm an experienced software developer. Creating web apps and websites. Contact me and see what we can create together."
+  },
+  "Common": {
+    "english": "🇬🇧 English",
+    "polish": "🇵🇱 Polish",
+    "change_lang": "change language",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "privacy_policy": "Privacy Policy",
+    "cookies_policy": "Cookies Policy",
+    "contact_me": "Contact me:",
+    "theme_text": "change page theme"
+  }
+}
