@@ -1,0 +1,12 @@
+{
+  "common": {
+    "english": "Angielski",
+    "polish": "Polski",
+    "change_lang": "zmień język",
+    "home": "Strona Główna",
+    "about": "O mnie",
+    "projects": "Projekty",
+    "contact": "Kontakt",
+    "theme_text": "zmiana motywu strony"
+  }
+}
