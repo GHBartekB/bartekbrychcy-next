@@ -1,0 +1,12 @@
+{
+  "common": {
+    "english": "English",
+    "polish": "Polish",
+    "change_lang": "change language",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "theme_text": "change page theme"
+  }
+}

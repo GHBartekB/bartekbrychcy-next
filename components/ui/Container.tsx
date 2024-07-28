@@ -5,7 +5,12 @@ interface Props extends PropsWithChildren {
 }
 
 function Container({ children, className }: Props) {
-  return <div className={`container mx-auto ${className}`}>{children}</div>;
+  const additionalStyles = className ?? '';
+  return (
+    <div className={`container px-4 mx-auto ${additionalStyles}`}>
+      {children}
+    </div>
+  );
 }
 
 export default Container;
