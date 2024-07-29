@@ -1,21 +1,31 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import {
+  getMessages,
+  getTranslations,
+  unstable_setRequestLocale,
+} from 'next-intl/server';
 import { ThemeProvider } from 'next-themes';
 
-import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
 
+import { locales } from '@/config';
+
 import Nav from '@/components/nav/Nav';
-import Container from '@/components/ui/Container';
+import Footer from '@/components/footer/Footer';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Bartek Brychcy',
-  description: 'Portfolio CV Projekty',
-};
+export async function generateMetadata({
+  params: { locale },
+}: Omit<RootLayoutProps, 'children'>) {
+  const t = await getTranslations({ locale, namespace: 'LocaleLayout' });
 
+  return {
+    title: t('title'),
+    description: t('desc'),
+  };
+}
 interface RootLayoutProps {
   children: React.ReactNode;
   params: {
@@ -23,10 +33,15 @@ interface RootLayoutProps {
   };
 }
 
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
 export default async function RootLayout({
   children,
   params: { locale },
 }: Readonly<RootLayoutProps>) {
+  unstable_setRequestLocale(locale);
   const messages = await getMessages();
 
   return (
@@ -35,10 +50,8 @@ export default async function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NextIntlClientProvider messages={messages}>
             <Nav />
-            <div>{children}</div>
-            <footer>
-              <Container>Stopka</Container>
-            </footer>
+            <div className="min-h-[70vh] md:min-h-[80vh]">{children}</div>
+            <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

@@ -2,7 +2,7 @@
 
 import { FaHome } from 'react-icons/fa';
 import { useSelectedLayoutSegment } from 'next/navigation';
-import Link from 'next/link';
+import { Link } from '@/navigation';
 
 interface Props {
   text: string;

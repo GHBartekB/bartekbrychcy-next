@@ -1,20 +1,27 @@
 'use client';
 
 import { useLocale, useTranslations } from 'next-intl';
-import { useRouter } from 'next/navigation';
+import { useRouter, usePathname } from '@/navigation';
 import { ChangeEvent, useTransition } from 'react';
+import { useParams } from 'next/navigation';
 
 export default function LangSwitcher() {
   const [isPending, startTransition] = useTransition();
   const router = useRouter();
   const localActive = useLocale();
+  const pathname = usePathname();
+  const params = useParams();
 
-  const t = useTranslations('common');
+  const t = useTranslations('Common');
 
   const onSelectChange = (e: ChangeEvent<HTMLSelectElement>) => {
     const nextLocale = e.target.value;
     startTransition(() => {
-      router.replace(`/${nextLocale}`);
+      router.replace(
+        // @ts-expect-error -- TypeScript will validate that only known `params`
+        { pathname, params },
+        { locale: nextLocale },
+      );
     });
   };
   return (

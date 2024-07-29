@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 import NavItem from './NavItem';
-import LangSwitcher from '../LangSwitcher';
+import LangSwitcher from '../ui/LangSwitcher';
 import ThemeBtn from '../ui/ThemeBtn';
 
 const navData = [
@@ -11,9 +11,9 @@ const navData = [
 ];
 
 function NavList() {
-  const t = useTranslations('common');
+  const t = useTranslations('Common');
   return (
-    <ul className="flex flex-col pt-16 md:pt-0 md:ml-24 lg:ml-28 md:flex-row max-md:gap-y-2 md:gap-x-4">
+    <ul className="flex flex-col pt-16 md:pt-0 md:ml-16 lg:ml-28 md:flex-row max-md:gap-y-2 md:gap-x-4">
       {navData.map((item) => (
         <NavItem
           key={item.translationKey}
