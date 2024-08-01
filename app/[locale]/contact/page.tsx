@@ -3,7 +3,7 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 interface Props {
   params: { locale: string };
 }
-async function IndexPage({ params: { locale } }: Props) {
+async function ContactPage({ params: { locale } }: Props) {
   unstable_setRequestLocale(locale);
 
   return (
@@ -16,4 +16,4 @@ async function IndexPage({ params: { locale } }: Props) {
   );
 }
 
-export default IndexPage;
+export default ContactPage;

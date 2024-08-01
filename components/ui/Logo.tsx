@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import avatar from '@/public/avatar.svg';
-import Link from 'next/link';
+import { Link } from '@/navigation';
 
 interface Props {
   className?: string;
