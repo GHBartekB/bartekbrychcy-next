@@ -14,7 +14,7 @@ function Nav() {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <nav className="sticky min-h-[72px] top-0 py-4 bg-slate-800">
+    <nav className="sticky min-h-[72px] top-0 py-4 bg-slate-800 z-20">
       <Container className="transition-all relative">
         <Logo onClick={closeMenu} className="absolute left-4 -top-1" />
         <NavBurger isOpen={isOpen} onClick={toggleMenu} />

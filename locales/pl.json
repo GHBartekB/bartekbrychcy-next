@@ -14,13 +14,68 @@
     "privacy_policy": "Polityka Prywatności",
     "cookies_policy": "Polityka Cookies",
     "contact_me": "Napisz do mnie:",
-    "theme_text": "zmiana motywu strony"
+    "theme_text": "zmiana motywu strony",
+    "main_projects": {
+      "cinkciarz": "cinkciarz.pl",
+      "invest": "invest.cinkciarz.pl",
+      "cybergeeks": "cybergeeks.pl"
+    },
+    "see_more": "Zobacz więcej"
   },
   "Index": {
     "Header": {
       "heading_1_1": "Cześć,",
       "heading_1_2": "tu Bartek.",
       "subheading": "Poznajmy się!"
+    },
+    "Works": {
+      "title": "Moje prace"
+    },
+    "Experience": {
+      "title": "Doświadczenie",
+      "cinkciarz": {
+        "position": "Software Developer",
+        "place": "Cinkciarz.pl, Zielona Góra",
+        "dueDate": "07.2021 - 12.2023",
+        "positionDesc": "Rozwijanie serwisów oraz aplikacji internetowych firmy. Praca z zespołem programistów i grafików."
+      },
+      "bks": {
+        "position": "Freelancer",
+        "place": "BKS Bartłomiej Brychcy",
+        "dueDate": "07.2018 - 06.2020",
+        "positionDesc": "Tworzenie i administrowanie stronami internetowymi w systemie CMS WordPress z wykorzystaniem technologii HTML, CSS, JavaScript i SEO."
+      },
+      "perceptus": {
+        "position": "Key Account Manager",
+        "place": "Perceptus, Warszawa",
+        "dueDate": "07.2018 - 06.2019",
+        "positionDesc": "Budowanie relacji z klientami. Udział w postępowaniach przetargowych. Promowanie produktów i usług w obszarze bezpieczeństwa IT."
+      },
+      "seven": {
+        "position": "IT Consultant",
+        "place": "Seven, Zielona Góra",
+        "dueDate": "05.2017 - 06.2018",
+        "positionDesc": "Kompleksowa obsługa klienta. Administrowanie i organizowanie pracy serwisu komputerowego. Wsparcie pierwszej i drugiej linii."
+      }
+    },
+    "Skills": {
+      "title": "Umiejętności",
+      "core": "Kluczowe",
+      "developing": "Rozwijane"
+    },
+    "Education": {
+      "title": "Edukacja",
+      "university": {
+        "years": "2015 - 2019",
+        "school": "Biznes Elektroniczny, Uniwersytet Zielonogórski - inżynier"
+      },
+      "technicalSchool": {
+        "years": "2011 - 2015",
+        "school": "Zespół Szkół Elektronicznych i Samochodowych - technik informatyk z tytułem zawodowym"
+      },
+      "english": "Angielski B2",
+      "german": "Niemiecki A1",
+      "polish": "Polski C2 (ojczysty)"
     }
   }
 }
