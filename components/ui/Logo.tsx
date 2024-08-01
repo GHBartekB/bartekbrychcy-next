@@ -4,14 +4,20 @@ import { Link } from '@/navigation';
 
 interface Props {
   className?: string;
+  onClick: () => void;
 }
 
-function Logo({ className }: Props) {
+function Logo({ className, onClick }: Props) {
   return (
     <div
       className={`rounded-full w-12 overflow-hidden transition-all bg-slate-500 hover:bg-slate-400 ${className}`}
     >
-      <Link className="block translate-y-1" href="/" aria-label="logo">
+      <Link
+        onClick={onClick}
+        className="block translate-y-1"
+        href="/"
+        aria-label="logo"
+      >
         <Image alt="logo" width={48} height={48} src={avatar} />
       </Link>
     </div>
