@@ -6,7 +6,7 @@ import { IoIosSunny } from 'react-icons/io';
 
 function ThemeBtn() {
   const { theme, setTheme } = useTheme();
-  const t = useTranslations('common');
+  const t = useTranslations('Common');
 
   return (
     <button
@@ -15,7 +15,7 @@ function ThemeBtn() {
       aria-label={t('theme_text')}
     >
       <IoIosSunny
-        className="transition-all cursor-pointer text-slate-50 hover:text-slate-500  dark:text-slate-500 dark:hover:text-slate-50"
+        className="cursor-pointer text-slate-50 dark:text-slate-500"
         size={25}
       />
     </button>

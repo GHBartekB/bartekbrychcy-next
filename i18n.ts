@@ -1,14 +1,19 @@
 import { notFound } from 'next/navigation';
 import { getRequestConfig } from 'next-intl/server';
+import { locales } from './config';
 
 // Can be imported from a shared config
-const locales = ['pl', 'en'];
 
 export default getRequestConfig(async ({ locale }) => {
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) notFound();
 
   return {
-    messages: (await import(`./locales/${locale}.json`)).default,
+    messages: (
+      await (locale === 'pl'
+        ? // When using Turbopack, this will enable HMR for `pl`
+          import('./locales/pl.json')
+        : import(`./locales/${locale}.json`))
+    ).default,
   };
 });
