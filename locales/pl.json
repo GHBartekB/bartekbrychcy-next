@@ -15,5 +15,12 @@
     "cookies_policy": "Polityka Cookies",
     "contact_me": "Napisz do mnie:",
     "theme_text": "zmiana motywu strony"
+  },
+  "Index": {
+    "Header": {
+      "heading_1_1": "Cześć,",
+      "heading_1_2": "tu Bartek.",
+      "subheading": "Poznajmy się!"
+    }
   }
 }

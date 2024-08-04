@@ -9,17 +9,17 @@ import Logo from '../ui/Logo';
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+
+  const toggleMenu = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
 
   return (
     <nav className="sticky min-h-[72px] top-0 py-4 bg-slate-800">
       <Container className="transition-all relative">
-        <Logo className="absolute left-4 -top-1" />
+        <Logo onClick={closeMenu} className="absolute left-4 -top-1" />
         <NavBurger isOpen={isOpen} onClick={toggleMenu} />
         <Collapse isOpen={isOpen} className="md:block">
-          <NavList />
+          <NavList closeMenu={closeMenu} />
         </Collapse>
       </Container>
     </nav>

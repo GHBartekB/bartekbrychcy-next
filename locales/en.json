@@ -15,5 +15,12 @@
     "cookies_policy": "Cookies Policy",
     "contact_me": "Contact me:",
     "theme_text": "change page theme"
+  },
+  "Index": {
+    "Header": {
+      "heading_1_1": "Hello,",
+      "heading_1_2": "I'm Bartek.",
+      "subheading": "Let's meet!"
+    }
   }
 }
