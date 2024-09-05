@@ -9,7 +9,7 @@ function Collapse({ children, isOpen, className }: Props) {
   const styles = className ?? '';
   return (
     <div
-      className={`grid transition-all ${isOpen ? 'grid-rows-1fr' : 'grid-rows-0fr'} ${styles}`}
+      className={`grid transition-all duration-500 ${isOpen ? 'grid-rows-1fr' : 'grid-rows-0fr'} ${styles}`}
     >
       <div className="overflow-hidden">{children}</div>
     </div>

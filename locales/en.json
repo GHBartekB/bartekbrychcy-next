@@ -14,13 +14,68 @@
     "privacy_policy": "Privacy Policy",
     "cookies_policy": "Cookies Policy",
     "contact_me": "Contact me:",
-    "theme_text": "change page theme"
+    "theme_text": "change page theme",
+    "main_projects": {
+      "cinkciarz": "cinkciarz.pl",
+      "invest": "invest.cinkciarz.pl",
+      "cybergeeks": "cybergeeks.pl"
+    },
+    "see_more": "See more"
   },
   "Index": {
     "Header": {
       "heading_1_1": "Hello,",
       "heading_1_2": "I'm Bartek.",
       "subheading": "Let's meet!"
+    },
+    "Works": {
+      "title": "My Works"
+    },
+    "Experience": {
+      "title": "Experience",
+      "cinkciarz": {
+        "position": "Software Developer",
+        "place": "Cinkciarz.pl, Zielona Góra",
+        "dueDate": "07.2021 - 12.2023",
+        "positionDesc": "Developing the company's websites and web applications. Working with a team of programmers and graphic designers."
+      },
+      "bks": {
+        "position": "Freelancer",
+        "place": "BKS Bartłomiej Brychcy",
+        "dueDate": "07.2018 - 06.2020",
+        "positionDesc": "Creating and administering websites in WordPress CMS with the use of HTML, CSS, JavaScript and SEO technologies."
+      },
+      "perceptus": {
+        "position": "Key Account Manager",
+        "place": "Perceptus, Warszawa",
+        "dueDate": "07.2018 - 06.2019",
+        "positionDesc": "Driving relationships with clients. Participating in tender procedures. Promoting products and services in IT security area."
+      },
+      "seven": {
+        "position": "IT Consultant",
+        "place": "Seven, Zielona Góra",
+        "dueDate": "05.2017 - 06.2018",
+        "positionDesc": "A complex customer service. Administering and organising computer service work. The 1st and 2nd line support."
+      }
+    },
+    "Skills": {
+      "title": "Skills",
+      "core": "Core",
+      "developing": "Developing"
+    },
+    "Education": {
+      "title": "Education",
+      "university": {
+        "years": "2015 - 2019",
+        "school": "Engineer of E-business at University of Zielona Gora"
+      },
+      "technicalSchool": {
+        "years": "2011 - 2015",
+        "school": "Electronic and Automotive School Complex in Zielona Gora profile – IT Specialist – with Certificate"
+      },
+      "english": "English B2",
+      "german": "German A1",
+      "polish": "Polish C2 (native)"
     }
   }
 }
