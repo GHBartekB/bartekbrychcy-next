@@ -1,4 +1,8 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
+import AboutHeader from '@/components/about/AboutHeader';
+import AboutIntro from '@/components/about/AboutIntro';
+import Faq from '@/components/about/faq/Faq';
+import Contact from '@/components/common/Contact';
 
 interface Props {
   params: { locale: string };
@@ -8,9 +12,11 @@ async function AboutPage({ params: { locale } }: Props) {
 
   return (
     <>
-      <header>header</header>
+      <AboutHeader />
       <main>
-        <h1>main Content</h1>
+        <AboutIntro />
+        <Faq />
+        <Contact />
       </main>
     </>
   );

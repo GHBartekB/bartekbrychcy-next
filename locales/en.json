@@ -20,7 +20,11 @@
       "invest": "invest.cinkciarz.pl",
       "cybergeeks": "cybergeeks.pl"
     },
-    "see_more": "See more"
+    "see_more": "See more",
+    "Contact": {
+      "heading": "Got a project idea?",
+      "subheading": "Write to me:"
+    }
   },
   "Index": {
     "Header": {
@@ -76,6 +80,52 @@
       "english": "English B2",
       "german": "German A1",
       "polish": "Polish C2 (native)"
+    }
+  },
+  "About": {
+    "Header": {
+      "heading": "Who am I?",
+      "subheading": "I'm Software Developer"
+    },
+    "Intro": {
+      "title": "About me",
+      "desc_1": "Software Developer specialising mainly in web technologies. My basic programming language is JavaScript and TypeScript. I gained my knowledge by following various courses (by both Polish and foreign authors), reading technical documentation, industry publications, as well as by experimenting and learning from my mistakes.",
+      "desc_2": "I am a graduate in electronic business with an engineering degree from the University of Zielona Góra, and an IT technician with a vocational degree from the Electronic and Automotive School Complex in Zielona Góra."
+    },
+    "Faq": {
+      "faq1": {
+        "question": "What technologies do you use most often in your projects?",
+        "answer": "The vast majority of my current projects are based on technologies such as React, Next and TypeScript. For projects where the client would like to have a site created with a content management panel, but the budget is severely limited, I suggest creating a project based on the WordPress CMS."
+      },
+      "faq2": {
+        "question": "Do you deal with the frontend as well as the backend?",
+        "answer": "From the very beginning I planned to be a fullstack developer, but doing it in stages. First familiarising myself with the frontend, then gradually moving on to the backend. I currently develop and contribute to fullstack applications based on Next, Prisma and PostgreSQL technologies, but my knowledge of the backend is not yet extensive enough for me to call myself a fullstack."
+      },
+      "faq3": {
+        "question": "What working methodologies do you prefer for projects?",
+        "answer": "I have worked in both Agile, Scrum and Kanban - it doesn't make much difference to me. If a proper analysis is done before the project is done and everyone knows what the purpose of the application is we already have half the success."
+      },
+      "faq4": {
+        "question": "How long does it take to develop a web application?",
+        "answer": "There is no clear answer to this question. It all depends on the complexity of the project, the client's budget and the amount of people and equipment that will need to be deployed to create the application."
+      },
+      "faq5": {
+        "question": "What are your work rates?",
+        "answer": "In case of a full-time permanent contract, my rates start from 80 PLN net/hour. Single projects, such as the creation of a website, a web application or a simple business card page I charge individually depending on the client's needs."
+      },
+      "faq6": {
+        "question": "Do you have experience with SEO and search engine optimisation of applications?",
+        "answer": "I have basic knowledge and experience in search engine optimisation of applications. I am able to do SEO analysis from the technical side. I do not do any SEO campaigns, content marketing, Google Ads or other SEM activities for this."
+      },
+      "faq7": {
+        "question": "How do you acquire knowledge?",
+        "answer": "Mainly by practising. I worked on so-called legacy projects and those implemented from scratch. In each project, I had to refer to the technical documentation of the technology being used, or search for certain solutions on the Internet. In order to deepen my knowledge in a given field, I often use portals such as Udemy or YouTube."
+      }
+    }
+  },
+  "Contact": {
+    "Header": {
+      "heading": "Contact"
     }
   }
 }

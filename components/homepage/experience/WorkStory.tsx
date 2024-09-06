@@ -17,7 +17,7 @@ function WorkStory({
   isLast,
 }: Props) {
   return (
-    <div className="flex gap-x-4 sm:gap-x-8">
+    <div className="flex gap-x-3 sm:gap-x-8">
       <div
         className={`${toRight ? 'lg:order-3' : 'lg:order-1'}  max-w-60 sm:max-w-80 lg:text-center space-y-2 ${isLast ? '' : 'mb-8'}`}
       >

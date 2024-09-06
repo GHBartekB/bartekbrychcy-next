@@ -50,7 +50,7 @@ export default async function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <NextIntlClientProvider messages={messages}>
             <Nav />
-            <div className="min-h-[70vh] md:min-h-[80vh]">{children}</div>
+            <div>{children}</div>
             <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
