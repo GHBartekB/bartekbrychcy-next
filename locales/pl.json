@@ -20,7 +20,11 @@
       "invest": "invest.cinkciarz.pl",
       "cybergeeks": "cybergeeks.pl"
     },
-    "see_more": "Zobacz więcej"
+    "see_more": "Zobacz więcej",
+    "Contact": {
+      "heading": "Masz pomysł na projekt?",
+      "subheading": "Napisz do mnie:"
+    }
   },
   "Index": {
     "Header": {
@@ -76,6 +80,52 @@
       "english": "Angielski B2",
       "german": "Niemiecki A1",
       "polish": "Polski C2 (ojczysty)"
+    }
+  },
+  "About": {
+    "Header": {
+      "heading": "Kim jestem?",
+      "subheading": "Software Developerem"
+    },
+    "Intro": {
+      "title": "O mnie",
+      "desc_1": "Software Developer specjalizujący się głównie w technologiach webowych. Moim podstawowym językiem programowania jest JavaScript oraz TypeScript. Swoją wiedzę zdobywałem realizując różnego rodzaju kursy (zarówno polskich, jak i zagranicznych autorów), czytając dokumentacje techniczne, publikacje branżowe, a także eksperymentując i ucząc się na własnych błędach.",
+      "desc_2": "Jestem absolwentem kierunku biznes elektroniczny z tytułem inżyniera uzyskanym na Uniwersytecie Zielonogórskim, a także technikiem informatykiem z tytułem zawodowym uzyskanym w Zespole Szkół Elektronicznych i Samochodowych w Zielonej Górze."
+    },
+    "Faq": {
+      "faq1": {
+        "question": "Jakie technologie najczęściej wykorzystujesz w swoich projektach?",
+        "answer": "Zdecydowana większość moich obecnych projektów opiera się o takie technologie jak React, Next oraz TypeScript. W przypadku projektów, w których klient chciałby mieć stworzony serwis z panelem zarządzania treściami, jednak budżet jest mocno ograniczony, sugeruję stworzenie projektu w oparciu o CMS WordPress."
+      },
+      "faq2": {
+        "question": "Czy zajmujesz się zarówno frontendem, jak i backendem?",
+        "answer": "Od samego początku planowałem być fullstackiem, jednak robiąc to etapami. Najpierw zaznajomić się z frontendem, po czym stopniowo przechodzić do backendu. Aktualnie tworzę i współtworze aplikacje fullstackowe w oparciu o technologie Next, Prisma i PostgreSQL, jednak moja wiedza z backendu nie jest jeszcze na tyle obszerna, abym mógł nazywać siebie fullstackiem."
+      },
+      "faq3": {
+        "question": "Jakie metodyki pracy preferujesz w projektach?",
+        "answer": "Pracowałem zarówno w Agile, Scrum jak i Kanban - nie robi mi to większej różnicy. Jeśli przed wykonaniem projektu jest zrobiona odpowiednia analiza i każdy wie jaki jest cel aplikacji mamy już połowę sukcesu."
+      },
+      "faq4": {
+        "question": "Jak długo trwa stworzenie aplikacji internetowej?",
+        "answer": "Na to pytanie nie ma jednoznacznej odpowiedzi. Wszystko zależy od złożoności projektu, budżetu klienta oraz ilości ludzi, sprzętu jaki trzeba będzie zaangażować aby powstała aplikacja."
+      },
+      "faq5": {
+        "question": "Jakie są Twoje stawki za pracę?",
+        "answer": "W przypadku stałej umowy w pełnym wymiarze godzin, moje stawki zaczynają się od 80 zł netto/h. Pojedyncze projekty, takie jak stworzenie serwisu internetowego, aplikacji webowej, czy zwykłej strony wizytówki rozliczam indywidualnie w zależności od potrzeb klienta."
+      },
+      "faq6": {
+        "question": "Czy masz doświadczenie z SEO i optymalizacją aplikacji pod kątem wyszukiwarek?",
+        "answer": "Posiadam podstawową wiedzę oraz doświadczenie w optymalizacji aplikacji pod kątem wyszukiwarek. Jestem w stanie zrobić analizę SEO od strony technicznej. Nie prowadzę za to żadnych kampanii SEO, Content Marketingu, Google Ads oraz innych działań z zakresu SEM."
+      },
+      "faq7": {
+        "question": "W jaki sposób zdobywasz wiedzę?",
+        "answer": "Głównie praktykując. Pracowałem przy tzw. projektach Legacy oraz tych wdrażanych od zera. W każdym z projektów musiałem posiłkować się dokumentacją techniczną wykorzysytwanej technologii, czy też szukać niektórych rozwiązań w internecie. Chcąc zgłębić wiedzę z danego zakresu często korzsytam również z takich portali jak Udemy, czy YouTube."
+      }
+    }
+  },
+  "Contact": {
+    "Header": {
+      "heading": "Kontakt"
     }
   }
 }

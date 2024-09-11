@@ -1,8 +1,8 @@
 import { PropsWithChildren } from 'react';
 
 interface Props extends PropsWithChildren {
-  isOpen: boolean;
-  className: string;
+  isOpen?: boolean;
+  className?: string;
 }
 
 function Collapse({ children, isOpen, className }: Props) {

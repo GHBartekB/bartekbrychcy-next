@@ -1,5 +1,8 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 
+import ContactHeader from '@/components/contact/ContactHeader';
+import Contact from '@/components/common/Contact';
+
 interface Props {
   params: { locale: string };
 }
@@ -8,9 +11,9 @@ async function ContactPage({ params: { locale } }: Props) {
 
   return (
     <>
-      <header>header</header>
-      <main>
-        <h1>main Content</h1>
+      <ContactHeader />
+      <main className="py-8">
+        <Contact />
       </main>
     </>
   );
