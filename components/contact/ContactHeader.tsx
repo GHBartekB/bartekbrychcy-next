@@ -1,13 +1,13 @@
 import { useTranslations } from 'next-intl';
+import SimpleHeader from '../ui/SimpleHeader';
+import HeaderTitle from '../ui/HeaderTitle';
 
 function ContactHeader() {
   const t = useTranslations('Contact.Header');
   return (
-    <header className="py-8 text-slate-200 bg-slate-700 dark:bg-slate-950">
-      <h1 className="text-3xl text-center uppercase leading-snug">
-        {t('heading')}
-      </h1>
-    </header>
+    <SimpleHeader>
+      <HeaderTitle title={t('heading')} />
+    </SimpleHeader>
   );
 }
 

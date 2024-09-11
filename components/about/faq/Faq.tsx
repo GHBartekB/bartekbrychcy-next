@@ -1,7 +1,7 @@
 import { FaQ } from 'react-icons/fa6';
 
 import Section from '@/components/ui/Section';
-import SectionIntro from '@/components/homepage/SectionIntro';
+import SectionIntro from '@/components/ui/SectionIntro';
 import Container from '@/components/ui/Container';
 import FaqList from './FaqList';
 

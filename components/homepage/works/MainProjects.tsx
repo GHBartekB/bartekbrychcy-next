@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 
 import { Link } from '@/navigation';
-import ProjectCard from './ProjectCard';
+import ProjectCard from '@/components/common/ProjectCard';
 
 const projectKeys = [
   { key: 'cinkciarz', bgClass: "bg-[url('/images/ck_bgc.png')]" },
@@ -17,8 +17,8 @@ function MainProjects() {
         {projectKeys.map((item) => (
           <ProjectCard
             key={item.key}
-            link="/"
-            linkText={t(`main_projects.${item.key}`)}
+            link={`/projects/${item.key}`}
+            linkText={item.key}
             bgClass={item.bgClass}
           />
         ))}

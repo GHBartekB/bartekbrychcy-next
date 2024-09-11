@@ -11,7 +11,7 @@ function SectionIntro({ title, icon }: Props) {
           {title}
         </h2>
       )}
-      <div className="flex justify-center items-center gap-x-2 text-3xl md:text-5xl xl:text-7xl">
+      <div className="flex justify-center items-center gap-x-2 text-4xl md:text-5xl xl:text-7xl">
         <span className="w-20 h-1 bg-slate-800 dark:bg-slate-200 rounded-xl" />
         {icon}
         <span className="w-20 h-1 bg-slate-800 dark:bg-slate-200 rounded-xl" />

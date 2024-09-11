@@ -1,7 +1,7 @@
 'use-client';
 
 import { FaHome } from 'react-icons/fa';
-import { useSelectedLayoutSegment } from 'next/navigation';
+import { useSelectedLayoutSegments } from 'next/navigation';
 import { Link } from '@/navigation';
 
 interface Props {
@@ -11,8 +11,8 @@ interface Props {
 }
 
 function NavItem({ text, link, onClick }: Props) {
-  const selectedLayoutSegment = useSelectedLayoutSegment();
-  const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
+  const segments = useSelectedLayoutSegments();
+  const pathname = segments.length ? `/${segments.join('/')}` : '/';
   const isActive = pathname === link;
 
   return (

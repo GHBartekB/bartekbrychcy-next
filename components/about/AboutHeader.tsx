@@ -2,13 +2,13 @@ import { useTranslations } from 'next-intl';
 
 import heroImg from '@/public/images/about_hero.svg';
 import Image from 'next/image';
-import Header from '../ui/Header';
+import ImgHeader from '../ui/ImgHeader';
 import Container from '../ui/Container';
 
 function AboutHeader() {
   const t = useTranslations('About.Header');
   return (
-    <Header>
+    <ImgHeader>
       <Container>
         <div className="flex flex-col md:flex-row justify-center md:justify-start items-center gap-y-8 md:gap-x-40">
           <div className="md:order-1">
@@ -29,7 +29,7 @@ function AboutHeader() {
           />
         </div>
       </Container>
-    </Header>
+    </ImgHeader>
   );
 }
 

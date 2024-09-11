@@ -6,7 +6,7 @@ import { FaLinkedin, FaFacebook, FaDiscord, FaLightbulb } from 'react-icons/fa';
 import { Link } from '@/navigation';
 import Section from '../ui/Section';
 import Container from '../ui/Container';
-import SectionIntro from '../homepage/SectionIntro';
+import SectionIntro from '../ui/SectionIntro';
 
 const items = [
   {

@@ -3,6 +3,10 @@
     "title": "Bartłomiej Brychcy Software Developer",
     "desc": "I'm an experienced software developer. Creating web apps and websites. Contact me and see what we can create together."
   },
+  "NotFoundPage": {
+    "title": "Something went wrong...",
+    "description": "The page you were looking for does not exist 🙁"
+  },
   "Common": {
     "english": "🇬🇧 English",
     "polish": "🇵🇱 Polish",
@@ -15,11 +19,6 @@
     "cookies_policy": "Cookies Policy",
     "contact_me": "Contact me:",
     "theme_text": "change page theme",
-    "main_projects": {
-      "cinkciarz": "cinkciarz.pl",
-      "invest": "invest.cinkciarz.pl",
-      "cybergeeks": "cybergeeks.pl"
-    },
     "see_more": "See more",
     "Contact": {
       "heading": "Got a project idea?",
@@ -40,26 +39,26 @@
       "cinkciarz": {
         "position": "Software Developer",
         "place": "Cinkciarz.pl, Zielona Góra",
-        "dueDate": "07.2021 - 12.2023",
-        "positionDesc": "Developing the company's websites and web applications. Working with a team of programmers and graphic designers."
+        "due_date": "07.2021 - 12.2023",
+        "position_desc": "Developing the company's websites and web applications. Working with a team of programmers and graphic designers."
       },
       "bks": {
         "position": "Freelancer",
         "place": "BKS Bartłomiej Brychcy",
-        "dueDate": "07.2018 - 06.2020",
-        "positionDesc": "Creating and administering websites in WordPress CMS with the use of HTML, CSS, JavaScript and SEO technologies."
+        "due_date": "07.2018 - 06.2020",
+        "position_desc": "Creating and administering websites in WordPress CMS with the use of HTML, CSS, JavaScript and SEO technologies."
       },
       "perceptus": {
         "position": "Key Account Manager",
         "place": "Perceptus, Warszawa",
-        "dueDate": "07.2018 - 06.2019",
-        "positionDesc": "Driving relationships with clients. Participating in tender procedures. Promoting products and services in IT security area."
+        "due_date": "07.2018 - 06.2019",
+        "position_desc": "Driving relationships with clients. Participating in tender procedures. Promoting products and services in IT security area."
       },
       "seven": {
         "position": "IT Consultant",
         "place": "Seven, Zielona Góra",
-        "dueDate": "05.2017 - 06.2018",
-        "positionDesc": "A complex customer service. Administering and organising computer service work. The 1st and 2nd line support."
+        "due_date": "05.2017 - 06.2018",
+        "position_desc": "A complex customer service. Administering and organising computer service work. The 1st and 2nd line support."
       }
     },
     "Skills": {
@@ -93,33 +92,81 @@
       "desc_2": "I am a graduate in electronic business with an engineering degree from the University of Zielona Góra, and an IT technician with a vocational degree from the Electronic and Automotive School Complex in Zielona Góra."
     },
     "Faq": {
-      "faq1": {
+      "faq_1": {
         "question": "What technologies do you use most often in your projects?",
         "answer": "The vast majority of my current projects are based on technologies such as React, Next and TypeScript. For projects where the client would like to have a site created with a content management panel, but the budget is severely limited, I suggest creating a project based on the WordPress CMS."
       },
-      "faq2": {
+      "faq_2": {
         "question": "Do you deal with the frontend as well as the backend?",
         "answer": "From the very beginning I planned to be a fullstack developer, but doing it in stages. First familiarising myself with the frontend, then gradually moving on to the backend. I currently develop and contribute to fullstack applications based on Next, Prisma and PostgreSQL technologies, but my knowledge of the backend is not yet extensive enough for me to call myself a fullstack."
       },
-      "faq3": {
+      "faq_3": {
         "question": "What working methodologies do you prefer for projects?",
         "answer": "I have worked in both Agile, Scrum and Kanban - it doesn't make much difference to me. If a proper analysis is done before the project is done and everyone knows what the purpose of the application is we already have half the success."
       },
-      "faq4": {
+      "faq_4": {
         "question": "How long does it take to develop a web application?",
         "answer": "There is no clear answer to this question. It all depends on the complexity of the project, the client's budget and the amount of people and equipment that will need to be deployed to create the application."
       },
-      "faq5": {
+      "faq_5": {
         "question": "What are your work rates?",
         "answer": "In case of a full-time permanent contract, my rates start from 80 PLN net/hour. Single projects, such as the creation of a website, a web application or a simple business card page I charge individually depending on the client's needs."
       },
-      "faq6": {
+      "faq_6": {
         "question": "Do you have experience with SEO and search engine optimisation of applications?",
         "answer": "I have basic knowledge and experience in search engine optimisation of applications. I am able to do SEO analysis from the technical side. I do not do any SEO campaigns, content marketing, Google Ads or other SEM activities for this."
       },
-      "faq7": {
+      "faq_7": {
         "question": "How do you acquire knowledge?",
         "answer": "Mainly by practising. I worked on so-called legacy projects and those implemented from scratch. In each project, I had to refer to the technical documentation of the technology being used, or search for certain solutions on the Internet. In order to deepen my knowledge in a given field, I often use portals such as Udemy or YouTube."
+      }
+    }
+  },
+  "Projects": {
+    "Common": {
+      "work_scope": "Work Scope",
+      "client": "Client: ",
+      "link_desc": "Project link: ",
+      "technologies_used": "Technologies used: ",
+      "next_project": "Next project",
+      "previous_project": "Previous project",
+      "projects": "Projects"
+    },
+    "All": {
+      "title": "Projects"
+    },
+    "Single": {
+      "cinkciarz": {
+        "title": "cinkciarz.pl",
+        "client_name": "Cinkciarz.pl sp. z o.o.",
+        "link": "https://cinkciarz.pl/",
+        "link_text": "cinkciarz.pl",
+        "technologies": "HTML, SCSS, JavaScript, Vue, Nuxt, TypeScript, PHP, PostgreSQL, Tailwind, Bootstrap, Storybook",
+        "desc": "Maintenance and development of the website. Implementation of new sub-pages and functionalities based on graphic designs received. Customised CMS redevelopment - co-creation of new system to support 32 languages. Conducting technical SEO analyses, implementation of A/B tests. Active participation in website development meetings."
+      },
+      "invest": {
+        "title": "invest.cinkciarz.pl",
+        "client_name": "Cinkciarz.pl sp. z o.o.",
+        "link": "https://invest.cinkciarz.pl/",
+        "link_text": "invest.cinkciarz.pl",
+        "technologies": "HTML, SCSS, JavaScript, Vue, PHP, PostgreSQL, Bootstrap",
+        "desc": "Implementation of new sub-pages and individual elements based on designs prepared by the UX / UI team. Analysis and implementation of new functionalities both on the frontend and backend side (custom CMS). Extension of the database with new translations. Implementation of SEO solutions and A/B tests. Active participation in website development meetings."
+      },
+      "cybergeeks": {
+        "title": "cybergeeks.pl",
+        "client_name": "Cyber Geeks sp. z o. o.",
+        "link": "https://cybergeeks.pl/",
+        "link_text": "cybergeeks.pl",
+        "technologies": "HTML, SCSS, JavaScript, Vue, Nuxt, Strapi, Knex, PostgreSQL, Tailwind",
+        "desc": "Co-creation and development of an advanced website with multilingual content management capabilities, according to the client's requirements and the graphic designs provided. The project included full support for localisation and translation, using modern tools and technologies such as Nuxt.js and Strapi to enable dynamic and flexible content management in multiple languages. Key tasks included working closely with the project team and the client to tailor the site's features to specific business requirements, optimising performance and integrating with external systems. Additionally, the project was implemented with a focus on responsiveness and compliance with SEO and UX/UI best practices. Translated with DeepL.com (free version)"
+      },
+      "atkdesign": {
+        "title": "atkdesign.pl",
+        "client_name": "ATK Design Tomasz Kowal",
+        "link": "https://atkdesign.pl/",
+        "link_text": "atkdesign.pl",
+        "technologies": "HTML, SCSS, JavaScript, PHP, WordPress",
+        "desc": "Design and implementation of a modern website tailored to the specific needs and requirements of the client. The project included a detailed analysis of business requirements, preparation of information architecture, and implementation of functions enabling easy content management. The implementation included integration with content management systems (CMS) and optimisation of the website in terms of performance, responsiveness and SEO. Following the implementation phase, comprehensive user training was carried out, covering both content management and operation of the site's key features. Training was conducted in the form of workshops and educational materials, providing the client with full autonomy in day-to-day work with the site. Translated with DeepL.com (free version)"
       }
     }
   },
@@ -127,5 +174,16 @@
     "Header": {
       "heading": "Contact"
     }
+  },
+  "Cookies": {
+    "Modal": {},
+    "Policy": {
+      "title": "Cookies Policy",
+      "desc": "This website uses cookies to ensure the correct functioning of the site and to improve the user experience. Cookies allow us to collect anonymous data about site traffic, theme selection preferences, as well as the selected language. You can manage your cookie settings in your browser. By continuing to use the site, you agree to the use of cookies."
+    }
+  },
+  "Privacy": {
+    "title": "Privacy Policy",
+    "desc": "No personal data of users is collected or processed on this website, with the exception of data collected by Google Analytics for analytical purposes. This data is anonymous and is used to analyse website traffic in order to improve its functionality and content."
   }
 }
