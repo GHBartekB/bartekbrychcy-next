@@ -1,13 +1,30 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 
 import PrivacyHeader from '@/components/privacy/PrivacyHeader';
 import PrivacyContent from '@/components/privacy/PrivacyContent';
 import Contact from '@/components/common/Contact';
 
-interface Props {
+interface MetaProps {
+  children: React.ReactNode;
+  params: {
+    locale: string;
+  };
+}
+
+interface PageProps {
   params: { locale: string };
 }
-async function PrivacyPage({ params: { locale } }: Props) {
+
+export async function generateMetadata({
+  params: { locale },
+}: Omit<MetaProps, 'children'>) {
+  const t = await getTranslations({ locale, namespace: 'Privacy.Seo' });
+
+  return {
+    title: t('title'),
+  };
+}
+async function PrivacyPage({ params: { locale } }: PageProps) {
   unstable_setRequestLocale(locale);
 
   return (

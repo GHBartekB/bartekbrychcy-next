@@ -23,7 +23,7 @@ function AboutHeader() {
             className="max-w-80 lg:max-w-96 xl:max-w-none"
             priority
             src={heroImg}
-            alt=""
+            alt={t('img_alt')}
             width={600}
             height={600}
           />

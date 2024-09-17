@@ -1,13 +1,31 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 
 import AllProjectsHeader from '@/components/projects/all/AllProjectsHeader';
 import AllProjects from '@/components/projects/all/AllProjects';
 import Contact from '@/components/common/Contact';
 
-interface Props {
+interface MetaProps {
+  children: React.ReactNode;
+  params: {
+    locale: string;
+  };
+}
+
+interface PageProps {
   params: { locale: string };
 }
-async function ProjectsPage({ params: { locale } }: Props) {
+
+export async function generateMetadata({
+  params: { locale },
+}: Omit<MetaProps, 'children'>) {
+  const t = await getTranslations({ locale, namespace: 'Projects.All.Seo' });
+
+  return {
+    title: t('title'),
+  };
+}
+
+async function ProjectsPage({ params: { locale } }: PageProps) {
   unstable_setRequestLocale(locale);
 
   return (

@@ -19,7 +19,7 @@
     "cookies_policy": "Polityka Cookies",
     "contact_me": "Napisz do mnie:",
     "theme_text": "zmiana motywu strony",
-    "see_more": "Zobacz więcej",
+    "see_more": "Więcej projektów",
     "Contact": {
       "heading": "Masz pomysł na projekt?",
       "subheading": "Napisz do mnie:"
@@ -27,6 +27,7 @@
   },
   "Index": {
     "Header": {
+      "img_alt": "Grafika przedstawiająca uśmiechniętego mężczyznę w okularach",
       "heading_1_1": "Cześć,",
       "heading_1_2": "tu Bartek.",
       "subheading": "Poznajmy się!"
@@ -82,7 +83,11 @@
     }
   },
   "About": {
+    "Seo": {
+      "title": "O mnie - Bartłomiej Brychcy Software Developer"
+    },
     "Header": {
+      "img_alt": "Grafika przedstawiająca uśmiechniętego mężczyznę w okularach",
       "heading": "Kim jestem?",
       "subheading": "Software Developerem"
     },
@@ -133,10 +138,15 @@
       "projects": "Projekty"
     },
     "All": {
+      "Seo": {
+        "title": "Projekty - Bartłomiej Brychcy Software Developer"
+      },
       "title": "Projekty"
     },
     "Single": {
       "cinkciarz": {
+        "seo_title": "Cinkciarz - Bartłomiej Brychcy Software Developer",
+        "img_alt": "3 urządzenia prezentujące projekt na własnym ekranie",
         "title": "cinkciarz.pl",
         "client_name": "Cinkciarz.pl sp. z o.o.",
         "link": "https://cinkciarz.pl/",
@@ -145,6 +155,8 @@
         "desc": "Utrzymanie oraz rozwój serwisu internetowego. Wdrażanie nowych podstron oraz funkcjonalności w oparciu o otrzymywane projekty graifczne. Prace związane z przebudową indywidualnego systemu CMS - współtworzenie nowego systemu pozwalającego na obsługę 32 języków. Przeprowadzanie analiz technicznych SEO, wdrażanie testów A/B. Czynny udział w spotkaniach dotyczących rozwoju serwisu."
       },
       "invest": {
+        "seo_title": "Invest - Bartłomiej Brychcy Software Developer",
+        "img_alt": "3 urządzenia prezentujące projekt na własnym ekranie",
         "title": "invest.cinkciarz.pl",
         "client_name": "Cinkciarz.pl sp. z o.o.",
         "link": "https://invest.cinkciarz.pl/",
@@ -153,6 +165,8 @@
         "desc": "Wdrażanie nowych podstron oraz poszczególnych elementów w oparciu o projekty przygotowane przez zespół UX / UI. Analiza oraz wdrażanie nowych funkcjonalności zarówno po stronie frontend jak i backend (indywidualny CMS). Rozbudowa bazy danych o nowe tłumaczenia. Wdrażanie rozwiązań SEO oraz testów A/B. Czynny udział w spotkaniach dotyczących rozbudowy serwisu."
       },
       "cybergeeks": {
+        "seo_title": "Cybergeeks - Bartłomiej Brychcy Software Developer",
+        "img_alt": "3 urządzenia prezentujące projekt na własnym ekranie",
         "title": "cybergeeks.pl",
         "client_name": "Cyber Geeks sp. z o. o.",
         "link": "https://cybergeeks.pl/",
@@ -161,6 +175,8 @@
         "desc": "Współtworzenie i rozwijanie zaawansowanego serwisu internetowego z możliwością zarządzania treściami wielojęzycznymi, zgodnie z wymaganiami klienta oraz dostarczonymi projektami graficznymi. Projekt obejmował pełne wsparcie dla lokalizacji i tłumaczeń, z zastosowaniem nowoczesnych narzędzi i technologii, takich jak Nuxt.js i Strapi, umożliwiających dynamiczne i elastyczne zarządzanie treścią w wielu językach. Kluczowe zadania obejmowały ścisłą współpracę z zespołem projektowym oraz klientem w celu dopasowania funkcji serwisu do specyficznych wymagań biznesowych, optymalizację wydajności oraz integrację z zewnętrznymi systemami. Dodatkowo, projekt realizowany był z naciskiem na responsywność oraz zgodność z najlepszymi praktykami SEO i UX/UI."
       },
       "atkdesign": {
+        "seo_title": "Atkdesign - Bartłomiej Brychcy Software Developer",
+        "img_alt": "3 urządzenia prezentujące projekt na własnym ekranie",
         "title": "atkdesign.pl",
         "client_name": "ATK Design Tomasz Kowal",
         "link": "https://atkdesign.pl/",
@@ -171,18 +187,31 @@
     }
   },
   "Contact": {
+    "Seo": {
+      "title": "Kontakt - Bartłomiej Brychcy Software Developer"
+    },
     "Header": {
       "heading": "Kontakt"
     }
   },
   "Cookies": {
-    "Modal": {},
+    "Modal": {
+      "desc": "Ta strona używa plików cookies i innych funkcji w celu zapewnienia działania witryny z najwyższą jakością. Korzystając wyrażasz zgodę na ich używanie.",
+      "accepted": "Rozumiem",
+      "quit": "Wychodzę"
+    },
     "Policy": {
+      "Seo": {
+        "title": "Polityka Cookies - Bartłomiej Brychcy Software Developer"
+      },
       "title": "Polityka Cookies",
       "desc": "Ta strona używa plików cookies w celu zapewnienia poprawnego działania serwisu oraz ulepszania doświadczeń użytkowników. Pliki cookies umożliwiają zbieranie anonimowych danych o ruchu na stronie, preferencji wyboru motywu, a także wybranego języka. Możesz zarządzać swoimi ustawieniami cookies w przeglądarce. Kontynuując korzystanie ze strony, zgadzasz się na użycie plików cookies."
     }
   },
   "Privacy": {
+    "Seo": {
+      "title": "Polityka Prywatności - Bartłomiej Brychcy Software Developer"
+    },
     "title": "Polityka Prywatności",
     "desc": "Na tej stronie nie są gromadzone ani przetwarzane dane osobowe użytkowników, z wyjątkiem danych zbieranych przez Google Analytics w celach analitycznych. Dane te są anonimowe i służą do analizy ruchu na stronie, aby poprawić jej funkcjonalność i zawartość."
   }

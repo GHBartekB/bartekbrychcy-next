@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from '@next/third-parties/google';
 import { NextIntlClientProvider } from 'next-intl';
 import {
   getMessages,
@@ -13,6 +14,7 @@ import { locales } from '@/config';
 
 import Nav from '@/components/nav/Nav';
 import Footer from '@/components/footer/Footer';
+import CookieModal from '@/components/common/CookieModal';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -52,9 +54,11 @@ export default async function RootLayout({
             <Nav />
             <div>{children}</div>
             <Footer />
+            <CookieModal />
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>
+      <GoogleAnalytics gaId="G-Q0HQFYXSQ9" />
     </html>
   );
 }

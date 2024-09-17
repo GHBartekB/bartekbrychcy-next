@@ -1,19 +1,36 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 
 import CookiesHeader from '@/components/cookies/CookiesHeader';
 import CookiesContent from '@/components/cookies/CookiesContent';
 import Contact from '@/components/common/Contact';
 
-interface Props {
+interface MetaProps {
+  children: React.ReactNode;
+  params: {
+    locale: string;
+  };
+}
+
+interface PageProps {
   params: { locale: string };
 }
-async function CookiesPage({ params: { locale } }: Props) {
+
+export async function generateMetadata({
+  params: { locale },
+}: Omit<MetaProps, 'children'>) {
+  const t = await getTranslations({ locale, namespace: 'Cookies.Policy.Seo' });
+
+  return {
+    title: t('title'),
+  };
+}
+async function CookiesPage({ params: { locale } }: PageProps) {
   unstable_setRequestLocale(locale);
 
   return (
     <>
       <CookiesHeader />
-      <main className="min-h-[50vh]">
+      <main>
         <CookiesContent />
         <Contact />
       </main>

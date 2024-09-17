@@ -24,7 +24,7 @@ function HomeHeader() {
             className="max-w-80 lg:max-w-96 xl:max-w-none"
             priority
             src={avatar}
-            alt=""
+            alt={t('img_alt')}
             width={600}
             height={600}
           />

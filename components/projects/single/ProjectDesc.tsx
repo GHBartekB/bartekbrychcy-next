@@ -43,7 +43,7 @@ function ProjectDesc({ slug }: { slug: string }) {
             className="max-w-64 sm:max-w-80 lg:max-w-96"
             priority
             src={img}
-            alt={slug}
+            alt={t('img_alt')}
             width={600}
             height={600}
           />

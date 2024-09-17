@@ -1,12 +1,29 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 
 import ContactHeader from '@/components/contact/ContactHeader';
 import Contact from '@/components/common/Contact';
 
-interface Props {
+interface MetaProps {
+  children: React.ReactNode;
+  params: {
+    locale: string;
+  };
+}
+
+interface PageProps {
   params: { locale: string };
 }
-async function ContactPage({ params: { locale } }: Props) {
+
+export async function generateMetadata({
+  params: { locale },
+}: Omit<MetaProps, 'children'>) {
+  const t = await getTranslations({ locale, namespace: 'Contact.Seo' });
+
+  return {
+    title: t('title'),
+  };
+}
+async function ContactPage({ params: { locale } }: PageProps) {
   unstable_setRequestLocale(locale);
 
   return (
