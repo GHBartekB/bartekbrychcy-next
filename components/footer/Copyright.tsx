@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { FaGithub } from 'react-icons/fa';
 
 function Copyright() {
   const [year, setYear] = useState(2024);
@@ -11,7 +12,16 @@ function Copyright() {
   }, []);
   return (
     <div className="bg-slate-950 py-8 text-center">
-      © {year} Bartłomiej Brychcy
+      <p className="mb-3">© {year} Bartłomiej Brychcy</p>
+      <p>
+        <a
+          className="text-3xl inline-block hover:text-slate-400"
+          href="https://github.com/GHBartekB"
+          aria-label="github"
+        >
+          <FaGithub />
+        </a>
+      </p>
     </div>
   );
 }

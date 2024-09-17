@@ -19,7 +19,7 @@
     "cookies_policy": "Cookies Policy",
     "contact_me": "Contact me:",
     "theme_text": "change page theme",
-    "see_more": "See more",
+    "see_more": "More Projects",
     "Contact": {
       "heading": "Got a project idea?",
       "subheading": "Write to me:"
@@ -27,6 +27,7 @@
   },
   "Index": {
     "Header": {
+      "img_alt": "Graphic showing a smiling man with glasses",
       "heading_1_1": "Hello,",
       "heading_1_2": "I'm Bartek.",
       "subheading": "Let's meet!"
@@ -82,7 +83,11 @@
     }
   },
   "About": {
+    "Seo": {
+      "title": "About - Bartłomiej Brychcy Software Developer"
+    },
     "Header": {
+      "img_alt": "Graphic showing a smiling man with glasses",
       "heading": "Who am I?",
       "subheading": "I'm Software Developer"
     },
@@ -133,10 +138,15 @@
       "projects": "Projects"
     },
     "All": {
-      "title": "Projects"
+      "title": "Projects",
+      "Seo": {
+        "title": "Projects - Bartłomiej Brychcy Software Developer"
+      }
     },
     "Single": {
       "cinkciarz": {
+        "seo_title": "Cinkciarz - Bartłomiej Brychcy Software Developer",
+        "img_alt": "3 devices to present the project on its own screen",
         "title": "cinkciarz.pl",
         "client_name": "Cinkciarz.pl sp. z o.o.",
         "link": "https://cinkciarz.pl/",
@@ -145,6 +155,8 @@
         "desc": "Maintenance and development of the website. Implementation of new sub-pages and functionalities based on graphic designs received. Customised CMS redevelopment - co-creation of new system to support 32 languages. Conducting technical SEO analyses, implementation of A/B tests. Active participation in website development meetings."
       },
       "invest": {
+        "seo_title": "Invest - Bartłomiej Brychcy Software Developer",
+        "img_alt": "3 devices to present the project on its own screen",
         "title": "invest.cinkciarz.pl",
         "client_name": "Cinkciarz.pl sp. z o.o.",
         "link": "https://invest.cinkciarz.pl/",
@@ -153,36 +165,53 @@
         "desc": "Implementation of new sub-pages and individual elements based on designs prepared by the UX / UI team. Analysis and implementation of new functionalities both on the frontend and backend side (custom CMS). Extension of the database with new translations. Implementation of SEO solutions and A/B tests. Active participation in website development meetings."
       },
       "cybergeeks": {
+        "seo_title": "Cybergeeks - Bartłomiej Brychcy Software Developer",
+        "img_alt": "3 devices to present the project on its own screen",
         "title": "cybergeeks.pl",
         "client_name": "Cyber Geeks sp. z o. o.",
         "link": "https://cybergeeks.pl/",
         "link_text": "cybergeeks.pl",
         "technologies": "HTML, SCSS, JavaScript, Vue, Nuxt, Strapi, Knex, PostgreSQL, Tailwind",
-        "desc": "Co-creation and development of an advanced website with multilingual content management capabilities, according to the client's requirements and the graphic designs provided. The project included full support for localisation and translation, using modern tools and technologies such as Nuxt.js and Strapi to enable dynamic and flexible content management in multiple languages. Key tasks included working closely with the project team and the client to tailor the site's features to specific business requirements, optimising performance and integrating with external systems. Additionally, the project was implemented with a focus on responsiveness and compliance with SEO and UX/UI best practices. Translated with DeepL.com (free version)"
+        "desc": "Co-creation and development of an advanced website with multilingual content management capabilities, according to the client's requirements and the graphic designs provided. The project included full support for localisation and translation, using modern tools and technologies such as Nuxt.js and Strapi to enable dynamic and flexible content management in multiple languages. Key tasks included working closely with the project team and the client to tailor the site's features to specific business requirements, optimising performance and integrating with external systems. Additionally, the project was implemented with a focus on responsiveness and compliance with SEO and UX/UI best practices."
       },
       "atkdesign": {
+        "seo_title": "Atkdesign - Bartłomiej Brychcy Software Developer",
+        "img_alt": "3 devices to present the project on its own screen",
         "title": "atkdesign.pl",
         "client_name": "ATK Design Tomasz Kowal",
         "link": "https://atkdesign.pl/",
         "link_text": "atkdesign.pl",
         "technologies": "HTML, SCSS, JavaScript, PHP, WordPress",
-        "desc": "Design and implementation of a modern website tailored to the specific needs and requirements of the client. The project included a detailed analysis of business requirements, preparation of information architecture, and implementation of functions enabling easy content management. The implementation included integration with content management systems (CMS) and optimisation of the website in terms of performance, responsiveness and SEO. Following the implementation phase, comprehensive user training was carried out, covering both content management and operation of the site's key features. Training was conducted in the form of workshops and educational materials, providing the client with full autonomy in day-to-day work with the site. Translated with DeepL.com (free version)"
+        "desc": "Design and implementation of a modern website tailored to the specific needs and requirements of the client. The project included a detailed analysis of business requirements, preparation of information architecture, and implementation of functions enabling easy content management. The implementation included integration with content management systems (CMS) and optimisation of the website in terms of performance, responsiveness and SEO. Following the implementation phase, comprehensive user training was carried out, covering both content management and operation of the site's key features. Training was conducted in the form of workshops and educational materials, providing the client with full autonomy in day-to-day work with the site."
       }
     }
   },
   "Contact": {
+    "Seo": {
+      "title": "Contact - Bartłomiej Brychcy Software Developer"
+    },
     "Header": {
       "heading": "Contact"
     }
   },
   "Cookies": {
-    "Modal": {},
+    "Modal": {
+      "desc": "This website uses cookies and other features to ensure that the site operates at its highest quality. By using you agree to their use.",
+      "accepted": "I understand",
+      "quit": "I leave"
+    },
     "Policy": {
+      "Seo": {
+        "title": "Cookies Policy - Bartłomiej Brychcy Software Developer"
+      },
       "title": "Cookies Policy",
       "desc": "This website uses cookies to ensure the correct functioning of the site and to improve the user experience. Cookies allow us to collect anonymous data about site traffic, theme selection preferences, as well as the selected language. You can manage your cookie settings in your browser. By continuing to use the site, you agree to the use of cookies."
     }
   },
   "Privacy": {
+    "Seo": {
+      "title": "Privacy Policy - Bartłomiej Brychcy Software Developer"
+    },
     "title": "Privacy Policy",
     "desc": "No personal data of users is collected or processed on this website, with the exception of data collected by Google Analytics for analytical purposes. This data is anonymous and is used to analyse website traffic in order to improve its functionality and content."
   }
