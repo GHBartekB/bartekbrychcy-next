@@ -1,5 +1,9 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 
+import PrivacyHeader from '@/components/privacy/PrivacyHeader';
+import PrivacyContent from '@/components/privacy/PrivacyContent';
+import Contact from '@/components/common/Contact';
+
 interface Props {
   params: { locale: string };
 }
@@ -8,9 +12,10 @@ async function PrivacyPage({ params: { locale } }: Props) {
 
   return (
     <>
-      <header>header</header>
+      <PrivacyHeader />
       <main>
-        <h1>main Content</h1>
+        <PrivacyContent />
+        <Contact />
       </main>
     </>
   );

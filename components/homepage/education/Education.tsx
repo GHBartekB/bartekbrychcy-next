@@ -3,7 +3,7 @@ import { IoMdSchool } from 'react-icons/io';
 
 import Section from '@/components/ui/Section';
 import Container from '@/components/ui/Container';
-import SectionIntro from '../SectionIntro';
+import SectionIntro from '@/components/ui/SectionIntro';
 import EduCard from './EduCard';
 import SchoolStep from './SchoolStep';
 import EduLangItem from './EduLangItem';

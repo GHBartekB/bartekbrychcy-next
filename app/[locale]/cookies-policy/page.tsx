@@ -1,5 +1,9 @@
 import { unstable_setRequestLocale } from 'next-intl/server';
 
+import CookiesHeader from '@/components/cookies/CookiesHeader';
+import CookiesContent from '@/components/cookies/CookiesContent';
+import Contact from '@/components/common/Contact';
+
 interface Props {
   params: { locale: string };
 }
@@ -8,9 +12,10 @@ async function CookiesPage({ params: { locale } }: Props) {
 
   return (
     <>
-      <header>header</header>
-      <main>
-        <h1>main Content</h1>
+      <CookiesHeader />
+      <main className="min-h-[50vh]">
+        <CookiesContent />
+        <Contact />
       </main>
     </>
   );

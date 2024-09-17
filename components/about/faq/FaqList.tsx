@@ -9,7 +9,7 @@ const setKeys = (): string[] => {
   const list = [];
   // eslint-disable-next-line no-plusplus
   for (let i = 1; i < 8; i++) {
-    list.push(`faq${i}`);
+    list.push(`faq_${i}`);
   }
   return list;
 };

@@ -9,6 +9,7 @@ import {
   FaGitAlt,
   FaFigma,
   FaWordpress,
+  FaDocker,
 } from 'react-icons/fa';
 
 import { SiNextdotjs, SiStrapi, SiTypescript } from 'react-icons/si';
@@ -17,9 +18,9 @@ import { TbBrandNuxt } from 'react-icons/tb';
 import { BiLogoPostgresql, BiLogoTailwindCss } from 'react-icons/bi';
 import { BsBootstrapFill } from 'react-icons/bs';
 
-import Section from '../../ui/Section';
-import Container from '../../ui/Container';
-import SectionIntro from '../SectionIntro';
+import Section from '@/components/ui/Section';
+import Container from '@/components/ui/Container';
+import SectionIntro from '@/components/ui/SectionIntro';
 import SkillsItem from './SkillsItem';
 
 const strongSkills = [
@@ -41,6 +42,7 @@ const softSkills = [
   { icon: <BiLogoPostgresql />, text: 'postgresql' },
   { icon: <SiStrapi />, text: 'strapi' },
   { icon: <FaPhp />, text: 'php' },
+  { icon: <FaDocker />, text: 'docker' },
   { icon: <FaWordpress />, text: 'wordpress' },
 ];
 

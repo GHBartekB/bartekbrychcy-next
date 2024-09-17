@@ -3,6 +3,10 @@
     "title": "Bartłomiej Brychcy Software Developer",
     "desc": "Programista z kilkuletnim doświadczeniem. Tworzę aplikacje webowe i serwisy internetowe. Skontaktuj się ze mną i sprawdź, co możemy razem stworzyć."
   },
+  "NotFoundPage": {
+    "title": "Coś poszło nie tak...",
+    "description": "Strona której szukasz nie istnieje 🙁"
+  },
   "Common": {
     "english": "🇬🇧 Angielski",
     "polish": "🇵🇱 Polski",
@@ -15,11 +19,6 @@
     "cookies_policy": "Polityka Cookies",
     "contact_me": "Napisz do mnie:",
     "theme_text": "zmiana motywu strony",
-    "main_projects": {
-      "cinkciarz": "cinkciarz.pl",
-      "invest": "invest.cinkciarz.pl",
-      "cybergeeks": "cybergeeks.pl"
-    },
     "see_more": "Zobacz więcej",
     "Contact": {
       "heading": "Masz pomysł na projekt?",
@@ -40,26 +39,26 @@
       "cinkciarz": {
         "position": "Software Developer",
         "place": "Cinkciarz.pl, Zielona Góra",
-        "dueDate": "07.2021 - 12.2023",
-        "positionDesc": "Rozwijanie serwisów oraz aplikacji internetowych firmy. Praca z zespołem programistów i grafików."
+        "due_date": "07.2021 - 12.2023",
+        "position_desc": "Rozwijanie serwisów oraz aplikacji internetowych firmy. Praca z zespołem programistów i grafików."
       },
       "bks": {
         "position": "Freelancer",
         "place": "BKS Bartłomiej Brychcy",
-        "dueDate": "07.2018 - 06.2020",
-        "positionDesc": "Tworzenie i administrowanie stronami internetowymi w systemie CMS WordPress z wykorzystaniem technologii HTML, CSS, JavaScript i SEO."
+        "due_date": "07.2018 - 06.2020",
+        "position_desc": "Tworzenie i administrowanie stronami internetowymi w systemie CMS WordPress z wykorzystaniem technologii HTML, CSS, JavaScript i SEO."
       },
       "perceptus": {
         "position": "Key Account Manager",
         "place": "Perceptus, Warszawa",
-        "dueDate": "07.2018 - 06.2019",
-        "positionDesc": "Budowanie relacji z klientami. Udział w postępowaniach przetargowych. Promowanie produktów i usług w obszarze bezpieczeństwa IT."
+        "due_date": "07.2018 - 06.2019",
+        "position_desc": "Budowanie relacji z klientami. Udział w postępowaniach przetargowych. Promowanie produktów i usług w obszarze bezpieczeństwa IT."
       },
       "seven": {
         "position": "IT Consultant",
         "place": "Seven, Zielona Góra",
-        "dueDate": "05.2017 - 06.2018",
-        "positionDesc": "Kompleksowa obsługa klienta. Administrowanie i organizowanie pracy serwisu komputerowego. Wsparcie pierwszej i drugiej linii."
+        "due_date": "05.2017 - 06.2018",
+        "position_desc": "Kompleksowa obsługa klienta. Administrowanie i organizowanie pracy serwisu komputerowego. Wsparcie pierwszej i drugiej linii."
       }
     },
     "Skills": {
@@ -93,33 +92,81 @@
       "desc_2": "Jestem absolwentem kierunku biznes elektroniczny z tytułem inżyniera uzyskanym na Uniwersytecie Zielonogórskim, a także technikiem informatykiem z tytułem zawodowym uzyskanym w Zespole Szkół Elektronicznych i Samochodowych w Zielonej Górze."
     },
     "Faq": {
-      "faq1": {
+      "faq_1": {
         "question": "Jakie technologie najczęściej wykorzystujesz w swoich projektach?",
         "answer": "Zdecydowana większość moich obecnych projektów opiera się o takie technologie jak React, Next oraz TypeScript. W przypadku projektów, w których klient chciałby mieć stworzony serwis z panelem zarządzania treściami, jednak budżet jest mocno ograniczony, sugeruję stworzenie projektu w oparciu o CMS WordPress."
       },
-      "faq2": {
+      "faq_2": {
         "question": "Czy zajmujesz się zarówno frontendem, jak i backendem?",
         "answer": "Od samego początku planowałem być fullstackiem, jednak robiąc to etapami. Najpierw zaznajomić się z frontendem, po czym stopniowo przechodzić do backendu. Aktualnie tworzę i współtworze aplikacje fullstackowe w oparciu o technologie Next, Prisma i PostgreSQL, jednak moja wiedza z backendu nie jest jeszcze na tyle obszerna, abym mógł nazywać siebie fullstackiem."
       },
-      "faq3": {
+      "faq_3": {
         "question": "Jakie metodyki pracy preferujesz w projektach?",
         "answer": "Pracowałem zarówno w Agile, Scrum jak i Kanban - nie robi mi to większej różnicy. Jeśli przed wykonaniem projektu jest zrobiona odpowiednia analiza i każdy wie jaki jest cel aplikacji mamy już połowę sukcesu."
       },
-      "faq4": {
+      "faq_4": {
         "question": "Jak długo trwa stworzenie aplikacji internetowej?",
         "answer": "Na to pytanie nie ma jednoznacznej odpowiedzi. Wszystko zależy od złożoności projektu, budżetu klienta oraz ilości ludzi, sprzętu jaki trzeba będzie zaangażować aby powstała aplikacja."
       },
-      "faq5": {
+      "faq_5": {
         "question": "Jakie są Twoje stawki za pracę?",
         "answer": "W przypadku stałej umowy w pełnym wymiarze godzin, moje stawki zaczynają się od 80 zł netto/h. Pojedyncze projekty, takie jak stworzenie serwisu internetowego, aplikacji webowej, czy zwykłej strony wizytówki rozliczam indywidualnie w zależności od potrzeb klienta."
       },
-      "faq6": {
+      "faq_6": {
         "question": "Czy masz doświadczenie z SEO i optymalizacją aplikacji pod kątem wyszukiwarek?",
         "answer": "Posiadam podstawową wiedzę oraz doświadczenie w optymalizacji aplikacji pod kątem wyszukiwarek. Jestem w stanie zrobić analizę SEO od strony technicznej. Nie prowadzę za to żadnych kampanii SEO, Content Marketingu, Google Ads oraz innych działań z zakresu SEM."
       },
-      "faq7": {
+      "faq_7": {
         "question": "W jaki sposób zdobywasz wiedzę?",
         "answer": "Głównie praktykując. Pracowałem przy tzw. projektach Legacy oraz tych wdrażanych od zera. W każdym z projektów musiałem posiłkować się dokumentacją techniczną wykorzysytwanej technologii, czy też szukać niektórych rozwiązań w internecie. Chcąc zgłębić wiedzę z danego zakresu często korzsytam również z takich portali jak Udemy, czy YouTube."
+      }
+    }
+  },
+  "Projects": {
+    "Common": {
+      "work_scope": "Zakres prac",
+      "client": "Klient: ",
+      "link_desc": "Link do projektu: ",
+      "technologies_used": "Użyte technologie: ",
+      "next_project": "Następny projekt",
+      "previous_project": "Poprzedni projekt",
+      "projects": "Projekty"
+    },
+    "All": {
+      "title": "Projekty"
+    },
+    "Single": {
+      "cinkciarz": {
+        "title": "cinkciarz.pl",
+        "client_name": "Cinkciarz.pl sp. z o.o.",
+        "link": "https://cinkciarz.pl/",
+        "link_text": "cinkciarz.pl",
+        "technologies": "HTML, SCSS, JavaScript, Vue, Nuxt, TypeScript, PHP, PostgreSQL, Tailwind, Bootstrap, Storybook",
+        "desc": "Utrzymanie oraz rozwój serwisu internetowego. Wdrażanie nowych podstron oraz funkcjonalności w oparciu o otrzymywane projekty graifczne. Prace związane z przebudową indywidualnego systemu CMS - współtworzenie nowego systemu pozwalającego na obsługę 32 języków. Przeprowadzanie analiz technicznych SEO, wdrażanie testów A/B. Czynny udział w spotkaniach dotyczących rozwoju serwisu."
+      },
+      "invest": {
+        "title": "invest.cinkciarz.pl",
+        "client_name": "Cinkciarz.pl sp. z o.o.",
+        "link": "https://invest.cinkciarz.pl/",
+        "link_text": "invest.cinkciarz.pl",
+        "technologies": "HTML, SCSS, JavaScript, Vue, PHP, PostgreSQL, Bootstrap",
+        "desc": "Wdrażanie nowych podstron oraz poszczególnych elementów w oparciu o projekty przygotowane przez zespół UX / UI. Analiza oraz wdrażanie nowych funkcjonalności zarówno po stronie frontend jak i backend (indywidualny CMS). Rozbudowa bazy danych o nowe tłumaczenia. Wdrażanie rozwiązań SEO oraz testów A/B. Czynny udział w spotkaniach dotyczących rozbudowy serwisu."
+      },
+      "cybergeeks": {
+        "title": "cybergeeks.pl",
+        "client_name": "Cyber Geeks sp. z o. o.",
+        "link": "https://cybergeeks.pl/",
+        "link_text": "cybergeeks.pl",
+        "technologies": "HTML, SCSS, JavaScript, Vue, Nuxt, Strapi, Knex, PostgreSQL, Tailwind",
+        "desc": "Współtworzenie i rozwijanie zaawansowanego serwisu internetowego z możliwością zarządzania treściami wielojęzycznymi, zgodnie z wymaganiami klienta oraz dostarczonymi projektami graficznymi. Projekt obejmował pełne wsparcie dla lokalizacji i tłumaczeń, z zastosowaniem nowoczesnych narzędzi i technologii, takich jak Nuxt.js i Strapi, umożliwiających dynamiczne i elastyczne zarządzanie treścią w wielu językach. Kluczowe zadania obejmowały ścisłą współpracę z zespołem projektowym oraz klientem w celu dopasowania funkcji serwisu do specyficznych wymagań biznesowych, optymalizację wydajności oraz integrację z zewnętrznymi systemami. Dodatkowo, projekt realizowany był z naciskiem na responsywność oraz zgodność z najlepszymi praktykami SEO i UX/UI."
+      },
+      "atkdesign": {
+        "title": "atkdesign.pl",
+        "client_name": "ATK Design Tomasz Kowal",
+        "link": "https://atkdesign.pl/",
+        "link_text": "atkdesign.pl",
+        "technologies": "HTML, SCSS, JavaScript, PHP, WordPress",
+        "desc": "Zaprojektowanie oraz wdrożenie nowoczesnego serwisu internetowego dostosowanego do specyficznych potrzeb i wymagań klienta. Projekt obejmował szczegółową analizę wymagań biznesowych, przygotowanie architektury informacji, a także implementację funkcji umożliwiających łatwe zarządzanie treściami. Wdrożenie obejmowało integrację z systemami zarządzania treścią (CMS) oraz optymalizację serwisu pod kątem wydajności, responsywności oraz SEO. Po zakończeniu etapu implementacji, przeprowadzono kompleksowe szkolenia użytkowników, obejmujące zarówno zarządzanie treściami, jak i obsługę kluczowych funkcji serwisu. Szkolenia były prowadzone w formie warsztatów oraz materiałów edukacyjnych, zapewniając klientowi pełną autonomię w codziennej pracy z serwisem."
       }
     }
   },
@@ -127,5 +174,16 @@
     "Header": {
       "heading": "Kontakt"
     }
+  },
+  "Cookies": {
+    "Modal": {},
+    "Policy": {
+      "title": "Polityka Cookies",
+      "desc": "Ta strona używa plików cookies w celu zapewnienia poprawnego działania serwisu oraz ulepszania doświadczeń użytkowników. Pliki cookies umożliwiają zbieranie anonimowych danych o ruchu na stronie, preferencji wyboru motywu, a także wybranego języka. Możesz zarządzać swoimi ustawieniami cookies w przeglądarce. Kontynuując korzystanie ze strony, zgadzasz się na użycie plików cookies."
+    }
+  },
+  "Privacy": {
+    "title": "Polityka Prywatności",
+    "desc": "Na tej stronie nie są gromadzone ani przetwarzane dane osobowe użytkowników, z wyjątkiem danych zbieranych przez Google Analytics w celach analitycznych. Dane te są anonimowe i służą do analizy ruchu na stronie, aby poprawić jej funkcjonalność i zawartość."
   }
 }

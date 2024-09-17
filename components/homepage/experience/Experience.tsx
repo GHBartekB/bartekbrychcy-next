@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
 import { FaCalendarAlt } from 'react-icons/fa';
-import Section from '../../ui/Section';
-import Container from '../../ui/Container';
-import SectionIntro from '../SectionIntro';
+import Section from '@/components/ui/Section';
+import Container from '@/components/ui/Container';
+import SectionIntro from '@/components/ui/SectionIntro';
 import WorkStory from './WorkStory';
 
 function Experience() {
@@ -18,8 +18,8 @@ function Experience() {
               key={t(`${transKey}.place`)}
               position={t(`${transKey}.position`)}
               place={t(`${transKey}.place`)}
-              dueDate={t(`${transKey}.dueDate`)}
-              positionDesc={t(`${transKey}.positionDesc`)}
+              dueDate={t(`${transKey}.due_date`)}
+              positionDesc={t(`${transKey}.position_desc`)}
               toRight={index % 2}
               isLast={index === keys.length - 1}
             />
