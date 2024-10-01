@@ -1,1 +1,1 @@
-This is a [Porfolio webpage](https://bartekbrychcy.pl/)
+This is a [Portfolio webpage](https://bartekbrychcy.pl/)
